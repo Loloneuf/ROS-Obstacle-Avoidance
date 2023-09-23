@@ -1,3 +1,3 @@
--[Cam_get_data.py](Cam_get_data.py) is the node that will centralize all the information from the camera 
--[Laser_get_data.py](Laser_get_data.py) is the node that will centralize all the information from the LIDAR
--[Teleop_node.py](Cam_get_data.py) is the main code that will induce the movements based on the received data
+- [Cam_get_data.py](Cam_get_data.py) is the node that will centralize all the information from the camera 
+- [Laser_get_data.py](Laser_get_data.py) is the node that will centralize all the information from the LIDAR
+- [Teleop_node.py](Cam_get_data.py) is the main code that will induce the movements based on the received data
