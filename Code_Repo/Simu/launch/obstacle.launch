@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+<include file="$(find projet)/launch/challenge.launch"></include>
+<include file="$(find projet)/launch/spawn.launch">
+	 <arg name="arg_name" value="2"/>
+</include>
+
+<node name="cam_data" pkg="projet" type = "Cam_data_simu.py" /> 
+<node name="las_data" pkg="projet" type = "Scan_data_simu.py"/> 
+<node name="teleop" pkg="projet" type = "Teleop_simu.py"/> 
+
+</launch>

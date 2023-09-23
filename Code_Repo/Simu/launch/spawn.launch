@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+
+
+<arg name="arg_name"/>
+
+<node pkg="rosservice" type="rosservice" name="rosservice" args="call gazebo/delete_model '{model_name: turtlebot3_burger}'"/>
+
+<node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_burger -x 0.87 -y -1.74 -z 0.0 -Y 0 -param robot_description" if="$(eval arg('arg_name') == 0)"/> 
+
+<node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_burger -x 1.527734 -y -0.751165 -z 0.0 -Y 3.128017 -param robot_description" if="$(eval arg('arg_name') == 1)"/> 
+
+<node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_burger -x 1.25 -y 0.25 -z 0.0 -Y 0 -param robot_description" if="$(eval arg('arg_name') == 2)"/> 
+
+<node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_burger -x 0.983204 -y 1.669156 -z 0.0 -Y -1.594206 -param robot_description" if="$(eval arg('arg_name') == 3)"/> 
+
+<node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_burger -x 0.319555 -y 1.544409 -z 0.0 -Y 1.557237 -param robot_description" if="$(eval arg('arg_name') == 4)"/>
+
+<node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_burger -x -1.749797 -y 0.093795 -z 0.0 -Y -1.571652 -param robot_description" if="$(eval arg('arg_name') == 5)"/>
+
+</launch>
