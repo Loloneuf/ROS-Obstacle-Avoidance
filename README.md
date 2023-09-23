@@ -1,4 +1,4 @@
-# ROS_Obstacle_Avoidance
+# ROS Obstacle Avoidance
 
 This project goal was to program a TurtleBot so that it could navigate in a non-previously known environement.
 The challenge was divided into a first simulation part using gazebo and a second part on a real circuit with three different types of obstacles:
