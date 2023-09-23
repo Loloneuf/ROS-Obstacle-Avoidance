@@ -1,1 +1,2 @@
-hey
+- Simu contains all repositories needed to run a simulated circuit and test the robot on it
+- Real contains three nodes that can be used with the real robot on a true circuit
