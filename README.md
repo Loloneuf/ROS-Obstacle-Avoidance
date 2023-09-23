@@ -5,15 +5,22 @@ The challenge was divided into a first simulation part using gazebo and a second
 
 - In the first part, the robot should use only its camera to follow the line and get trough the roundabout :
 
-[![Circuit part_1](Media/Image/First_step.gif)]
+<p align="center">
+<img  src="Media/Image/First_step.gif" width="300" height="300"/>
+</p>
 
 - The second part is obstacle avoidance and the robot should use both LIDAR and line detection
 
-[![Circuit part_2](Media/Image/Second_step.gif)]
+<p align="center">
+<img  src="Media/Image/Second_step.gif" width="300" height="300"/>
+</p>
 
 - The last part is a corridor that should be crossed using only LIDAR
   
-[![Circuit part_3](Media/Image/Third_step.gif)]
+<p align="center">
+<img  src="Media/Image/Third_step.gif" width="300" height="300"/>
+</p>
+
 
 
 
